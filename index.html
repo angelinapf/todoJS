@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App JS</title>
+    <script defer src="./script.js"></script>
+</head>
+<body onload="sidan_laddas()">
+    <h1><strong>Todo App</strong></h1>
+
+    <label><p>Ange aktivitet <input type="text" id="aktivitet"></p></label>
+    <label for="prioritet"><p>Prioritet:
+    <select name="prioritet" id="prioritet">
+        <option value="Viktig">Viktig</option>
+        <option value="Normal">Normal</option>
+        <option value="Oviktig">Oviktig</option>
+    </select></p></label>
+    <label><p>Vara klart när<input type="date" id="datum"></p> </label>
+    <button onclick="add()" id="todolist">Lägg till </button>
+
+    <h2><strong>Göra-lista</strong></h2>
+    <ul>
+
+
+    </ul>
+</body>
+</html>
